@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buildprofiles SYSTEM "https://resources.jetbrains.com/writerside/1.0/build-profiles.dtd">
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <build-profile instance="Ylimhs">
+        <variables>
+            <!--            设置为 false 以允许外部搜索引擎索引内容-->
+
+            <!--            设置为 true 以启用指向用户可以贡献的文档源的编辑页面选项。-->
+            <enable-contribution>true</enable-contribution>
+            <!--            指定用户可以贡献的文档源的链接，例如公共 GitHub 存储库。它必须指向“主题”文件夹所在的文档文件夹-->
+            <contribute-url>https://github.com/Ylimhs/PersonalNote/edit/main</contribute-url>
+            <noindex-content>true</noindex-content>
+            <!--          设置顶部栏下载按钮 -->
+            <!--            <header-logo>logo.svg</header-logo>-->
+            <!--            <download-title>Get Awesome App</download-title>-->
+            <!--            <download-page>https://example.com</download-page>-->
+            <!--            <showDownloadButton>true</showDownloadButton>-->
+        </variables>
+
+        <footer>
+            <copyright>2024 Ylimhs s.r.o.</copyright>
+            <social type="email" href="i@ylimhs.cm"/>
+            <!--            <link href="https://blog.jetbrains.com">Blog</link>-->
+        </footer>
+    </build-profile>
+</buildprofiles>
